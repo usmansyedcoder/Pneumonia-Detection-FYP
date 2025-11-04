@@ -1,8 +1,16 @@
+# CORE LIBRARIES
 torch
 torchvision
 numpy
+matplotlib
+Pillow        # Crucial for image loading/handling in your pneumonia detection
+streamlit     # Required to run the UI application on Streamlit Cloud
+
+# ML & UTILITY LIBRARIES
 scikit-learn
+tqdm
 torchsummary
 torchviz
-matplotlib
-tqdm
+
+# FIX FOR THE ModuleNotFoundError
+cryptography  # Fixes the error: from cryptography.hazmat.primitives import ...
